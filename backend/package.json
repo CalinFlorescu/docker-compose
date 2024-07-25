@@ -1,0 +1,17 @@
+{
+  "name": "demo-api",
+  "version": "1.0.0",
+  "description": "Demo API used to showcase Docker functionalities",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Calin Florescu",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  }
+}
